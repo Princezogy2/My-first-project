@@ -7,6 +7,237 @@
         <link rel="Stylesheet" href="Stylesheet.css"></link>
     </head>
     <body>
+
+<style>
+
+
+body {
+   background-color: #0b0c10; 
+   display:flex;
+   flex-direction:column;
+}
+
+.Nav-header{
+    display:flex;
+    flex-direction:row;
+    border-bottom:0.5px solid #2c2f36;
+    height:30px;
+    gap:13px;
+}
+
+.cinelist{
+    color:blue;
+    font-weight:bold;
+    font-size:13px;
+    
+}
+.Browse{
+    color:white;
+    font-size:11px;
+    
+}
+.Request{
+    background-color:grey;
+    color:white;
+    border-radius:4px;
+    height:23px;
+    font-size:13px;
+    width:60px;
+    text-align:center;
+    margin-bottom:30px;
+    
+}
+p{
+    color:white;
+    text-align:center;
+    font-size:10px;
+}
+
+
+.mid-section{
+    height:100px;
+    width:200px;
+    margin-left:60px;
+    padding:2px;
+
+}
+
+h1{
+    font-size:20px;
+    text-align:center ;
+    color:white;
+    font-weight:bold;    
+}
+
+form{
+    color:white;
+    background-color:#1a1d23;
+    height:320px;
+    align-items:center;
+    width:300px;
+    margin-left:15px;
+    
+}
+
+.sub{
+    width:301px;
+    background-color:#1a1d23;
+    margin-left:15px;
+    margin-right:35px;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    border-bottom:1px solid #2c2f36;
+}
+span{
+    font-size:10px;
+    margin-left:14px;
+    font-weight:bold;
+}
+input{
+    background-color:#030001;
+    border:1px solid #030001;
+    margin-left:14px;
+    width:260px;
+    color:white;
+    font-size:1px;
+    height:20px;
+}
+label{
+    font-size:9px;
+    font-weight:bold;
+    margin-left:14px;
+}
+
+textarea{
+    background-color:#030001;
+    height:75px;
+    width:260px;
+    margin-left:14px;
+    color:white;
+    font-size:1px;
+    border:1px solid #2c2f36;
+}
+
+.box{
+    height:35px;
+    width:265px;
+    background-color:#2c2f36;
+    border:1px solid #2c2f36;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:10px;
+    border-radius:3px;
+}
+
+h5{
+    font-size:1px;
+    color:blue;
+    font-weight:bold;
+}
+p{
+    text-align:center;
+    font-size:0.05px;
+    margin-top:1px;
+    padding-bottom:10px;
+}
+
+.button{
+    background-color:blue;
+    margin-top:10px;
+    width:270px;
+    margin-left:14px;
+    border:1px solid blue;
+    color:white;
+    border-radius:2px;
+    font-weight:bold;
+    font-size:3px;
+    height:25px;
+}
+
+.footer{
+   border-top:1px solid #2c2f36;
+   margin-top:10px;
+   font-weight:bold;
+   font-size:1px;
+   padding-top:5px;
+
+}
+
+.mid-footer{
+    display:flex;
+    flex-direction:row;
+    margin-top:33px;
+}
+
+.mid-footer1{
+    height:40px;
+    width:148px;
+    border:1px solid #2c2f36;
+    margin-left:13px;
+    color:white;
+    
+}
+
+#rules{
+    font-size:2px;
+    padding-left:5px;
+    text-align:left;
+    padding-bottom:10px;
+}
+
+#guide{
+    font-size:2px;
+    padding-left:5px;
+    padding-bottom:2px;
+    font-weight:bold;
+}
+
+#faq{
+    font-size:2px;
+    font-weight:bold; 
+    padding-left:2px;   
+    
+}
+
+#learn{
+    font-size:1.5px;
+    font-weight:;
+    text-align:left ;
+    padding-left:3px;
+    padding-top:4px;
+    font-weight:bold;
+}
+
+.nav-bar{
+    border-top:1px solid #2c2f36;
+    margin-top:35px;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    font-size:3px;
+    font-weight:bold;
+}
+
+.nav-bar1{
+    display:flex;
+    gap:15px;
+    font-size:3px;
+    margin-top:20px;
+    margin-left:45px;
+    font-weight:bold;
+}
+
+.h6{
+    color:blue;
+    text-align:center;
+    padding-top:3px;
+    font-weight:bold;
+}
+
+</style>
+
+
     
     <!--the header section-->
     
